@@ -30,6 +30,8 @@ Userland, shell, and system utilities will live in a separate repository.
 
 ## 📁 Repository Structure
 
+```
+
 myos-kernel/
 ├── arch/ # Architecture-specific code
 │ └── x86_64/
@@ -43,6 +45,8 @@ myos-kernel/
 ├── README.md
 ├── CHANGELOG.md
 └── LICENSE
+
+```
 
 ---
 
@@ -79,7 +83,11 @@ See `docs/ROADMAP.md` for full details.
 
 This project follows **Semantic Versioning**:
 
+```
+
 MAJOR.MINOR.PATCH
+
+```
 
 - **MAJOR:** Breaking architectural changes
 - **MINOR:** New kernel subsystems
@@ -91,5 +99,5 @@ MAJOR.MINOR.PATCH
 
 MIT License
 
-Copyright (c) 2026  
+Copyright (c) 2026
 Muhammad Yusran
